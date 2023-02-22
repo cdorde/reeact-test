@@ -31,8 +31,8 @@ jobs:
     - id: deploy
       name: Deploy to Github Pages
       uses: fcodelabs/react-deploy-github-pages-action@v1.0.0
-        with:
+      with:
           build_dir: dist
-        env:
+      env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     
