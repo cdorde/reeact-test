@@ -21,7 +21,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: github-pages
-      url: ${{ steps.deploy.outputs.page_url }}
+      url: https://cdorde.github.io/reeact-test/
     steps:
     - uses: actions/checkout@v2
     - run : npm i
