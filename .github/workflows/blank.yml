@@ -24,7 +24,8 @@ jobs:
       shell: bash
     - run : npm run build
       shell: bash
-    - uses: actions/upload-pages-artifact
-      path: build
+    - uses: actions/upload-pages-artifact@v3
+      with:
+        path: build
       
     
